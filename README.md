@@ -3,7 +3,7 @@ Condata_2019 Kaggle Competition
 
 Reasons For using Decision Tree algorithms:<br>
 
-They are good at multi-classification problems wherein each algorithm try to build multiple trees and make prediction.
+They are good at predciting multi-classification problems wherein each algorithm try to build multiple trees and make prediction.
 XGBoost - This algorithm learn from weak learner and try to minimize the penality incurred by giving importance to misclassified tuples by increasing their weights. Also it regularize the tree grown to maintain the complexity of th tree grown and accuracy of the model by not computing complex weights. 
 
 RandomForest - Defines best split by computing entropy and information gain from chosen set of variables. It then keeps on creating the tree in same fashion until a stopping criterion is not met. Classification is done of majority voting technique and the class getting maximum probability gets the vote. It is slow as compare to XGBoost but give pretty good results.
